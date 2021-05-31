@@ -4,10 +4,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class EmquantapitestApplication {
+public class EmquantapiSampleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EmquantapitestApplication.class, args);
+        SpringApplication.run(EmquantapiSampleApplication.class, args);
     }
 
 }
