@@ -1,0 +1,14 @@
+# emquantapi配置
+emquantapi:
+    #自定义库路径
+    libpath:
+      userAPI: /opt/emquantapi-sample/config/emquantapi_library/
+      jniEnv: /opt/emquantapi-sample/config/emquantapi_library/
+      serverlistdir: /opt/emquantapi-sample/config/emquantapi_library/
+
+    # 手动激活
+    manualactivate:
+      run: false
+      userName: em_huangpengxiao
+      password: test
+      options: email=test@eastmoney.com

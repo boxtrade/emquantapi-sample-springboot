@@ -1,0 +1,330 @@
+2021-05-31 09:47:34.876 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Debug][2021-05-31 09:47:34]:JNI_OnLoad startup ...
+
+2021-05-31 09:47:37.272 [main-81] INFO  com.eastmoney.emquantapitest.QuantCase:start:81 - EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.274 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Debug][2021-05-31 09:47:34]:Catch JNI_VERSION_1_8
+
+2021-05-31 09:47:37.274 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Debug][2021-05-31 09:47:34]:dir is /Users/hucc/eastmoney/21work/emquantapi/emquantapi-sample-springboot/lib/
+
+2021-05-31 09:47:37.275 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:
+Open Dll failed. error:[dlopen(/Users/hucc/eastmoney/21work/emquantapi/emquantapi-sample-springboot/lib/libEMQuantAPIx64.dylib, 1): no suitable image found.  Did find:
+	/Users/hucc/eastmoney/21work/emquantapi/emquantapi-sample-springboot/lib/libEMQuantAPIx64.dylib: code signature in (/Users/hucc/eastmoney/21work/emquantapi/emquantapi-sample-springboot/lib/libEMQuantAPIx64.dylib) not valid for use in process using Library Validation: library load disallowed by system policy]. Please check file path:/Users/hucc/eastmoney/21work/emquantapi/emquantapi-sample-springboot/lib/libEMQuantAPIx64.dylib
+
+2021-05-31 09:47:37.275 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnsetserverlistdir is null.
+
+2021-05-31 09:47:37.276 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnsetserverlistdir is null.
+
+2021-05-31 09:47:37.276 [main-92] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:92 - cfn输出结果======分隔线======
+2021-05-31 09:47:37.276 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnstart is null.
+
+2021-05-31 09:47:37.277 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncfn is null.
+
+2021-05-31 09:47:37.278 [main-94] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:94 - request cfn Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.279 [main-101] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:101 - cfnquery输出结果======分隔线======
+2021-05-31 09:47:37.279 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncfnquery is null.
+
+2021-05-31 09:47:37.279 [main-103] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:103 - request cfnquery Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.280 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncnq is null.
+
+2021-05-31 09:47:37.280 [main-113] INFO  com.eastmoney.emquantapitest.QuantCase:testCnq:113 - request cnq Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.283 [main-135] INFO  com.eastmoney.emquantapitest.QuantCase:testCmc:135 - cmc输出结果======分隔线======
+2021-05-31 09:47:37.283 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncmc is null.
+
+2021-05-31 09:47:37.283 [main-137] INFO  com.eastmoney.emquantapitest.QuantCase:testCmc:137 - request Cmc Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.284 [main-152] INFO  com.eastmoney.emquantapitest.QuantCase:testCsd:152 - csd输出结果======分隔线======
+2021-05-31 09:47:37.284 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncsd is null.
+
+2021-05-31 09:47:37.284 [main-154] INFO  com.eastmoney.emquantapitest.QuantCase:testCsd:154 - request csd Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.285 [main-167] INFO  com.eastmoney.emquantapitest.QuantCase:testCss:167 - css输出结果======分隔线======
+2021-05-31 09:47:37.285 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncss is null.
+
+2021-05-31 09:47:37.285 [main-169] INFO  com.eastmoney.emquantapitest.QuantCase:testCss:169 - request css Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.286 [main-182] INFO  com.eastmoney.emquantapitest.QuantCase:testCses:182 - request cses Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.286 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncses is null.
+
+2021-05-31 09:47:37.286 [main-197] INFO  com.eastmoney.emquantapitest.QuantCase:testSector:197 - sector输出结果======分隔线======
+2021-05-31 09:47:37.286 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnsector is null.
+
+2021-05-31 09:47:37.286 [main-199] INFO  com.eastmoney.emquantapitest.QuantCase:testSector:199 - request Sector Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.287 [main-450] INFO  com.eastmoney.emquantapitest.QuantCase:testTradedates:450 - tradedate输出结果======分隔线======
+2021-05-31 09:47:37.287 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfntradedates is null.
+
+2021-05-31 09:47:37.287 [main-452] INFO  com.eastmoney.emquantapitest.QuantCase:testTradedates:452 - request tradedates Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.287 [main-214] INFO  com.eastmoney.emquantapitest.QuantCase:testGetDate:214 - request GetDate Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.287 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfngetdate is null.
+
+2021-05-31 09:47:37.287 [main-224] INFO  com.eastmoney.emquantapitest.QuantCase:testCsq:224 - csq输出结果======分隔线======
+2021-05-31 09:47:37.287 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncsq is null.
+
+2021-05-31 09:47:37.288 [main-226] INFO  com.eastmoney.emquantapitest.QuantCase:testCsq:226 - request csq Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.288 [main-243] INFO  com.eastmoney.emquantapitest.QuantCase:testCst:243 - cst输出结果======分隔线======
+2021-05-31 09:47:37.288 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncst is null.
+
+2021-05-31 09:47:37.288 [main-245] INFO  com.eastmoney.emquantapitest.QuantCase:testCst:245 - request cst Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.288 [main-260] INFO  com.eastmoney.emquantapitest.QuantCase:testCsqsnapshot:260 - csqsnapshot输出结果======分隔线======
+2021-05-31 09:47:37.288 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncsqsnapshot is null.
+
+2021-05-31 09:47:37.289 [main-262] INFO  com.eastmoney.emquantapitest.QuantCase:testCsqsnapshot:262 - request csqsnapshot Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.289 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnctr is null.
+
+2021-05-31 09:47:37.289 [main-277] INFO  com.eastmoney.emquantapitest.QuantCase:testCtr:277 - ctr输出结果======分隔线======
+2021-05-31 09:47:37.290 [main-279] INFO  com.eastmoney.emquantapitest.QuantCase:testCtr:279 - request ctr Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.290 [main-290] INFO  com.eastmoney.emquantapitest.QuantCase:testCfc:290 - request cfc Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.290 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncfc is null.
+
+2021-05-31 09:47:37.290 [main-300] INFO  com.eastmoney.emquantapitest.QuantCase:testCec:300 - request cec Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.290 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncec is null.
+
+2021-05-31 09:47:37.290 [main-311] INFO  com.eastmoney.emquantapitest.QuantCase:testCps:311 - cps输出结果======分隔线======
+2021-05-31 09:47:37.291 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfncps is null.
+
+2021-05-31 09:47:37.291 [main-313] INFO  com.eastmoney.emquantapitest.QuantCase:testCps:313 - request cps Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.291 [main-323] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:323 - edb输出结果======分隔线======
+2021-05-31 09:47:37.291 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnedb is null.
+
+2021-05-31 09:47:37.291 [main-325] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:325 - request edb Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.291 [main-331] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:331 - edbquery输出结果======分隔线======
+2021-05-31 09:47:37.291 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnedbquery is null.
+
+2021-05-31 09:47:37.292 [main-333] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:333 - request edbquery Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.292 [main-346] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:346 - request pcreate Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.292 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnpcreate is null.
+
+2021-05-31 09:47:37.292 [main-356] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:356 - request pctransfer Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.292 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnpctransfer is null.
+
+2021-05-31 09:47:37.292 [main-364] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:364 - request porder Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.292 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnporder is null.
+
+2021-05-31 09:47:37.293 [main-373] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:373 - request preport Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.293 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnpreport is null.
+
+2021-05-31 09:47:37.293 [main-383] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:383 - request pquery Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.293 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnpquery is null.
+
+2021-05-31 09:47:37.293 [main-391] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:391 - request pdelete Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.293 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfnpdelete is null.
+
+2021-05-31 09:47:37.293 [main-468] INFO  com.eastmoney.emquantapitest.QuantCase:testTradedatesNum:468 - request TradedatesNum Error, EQERR_FUNCTION_INTERNAL_ERR
+2021-05-31 09:47:37.293 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:37]:function address of pfntradedatesnum is null.
+
+2021-05-31 09:47:40.299 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:47:40]:function address of pfnstop is null.
+
+2021-05-31 09:47:58.805 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Debug][2021-05-31 09:47:58]:JNI_OnLoad startup ...
+
+2021-05-31 09:48:14.018 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Debug][2021-05-31 09:47:58]:Catch JNI_VERSION_1_8
+
+2021-05-31 09:48:14.019 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Debug][2021-05-31 09:47:58]:dir is /Users/hucc/eastmoney/21work/emquantapi/emquantapi-sample-springboot/lib/
+
+2021-05-31 09:48:14.069 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Info][2021-05-31 09:48:14]:The current version is EmQuantAPI(V2.5.2.0).
+
+2021-05-31 09:48:14.070 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Info][2021-05-31 09:48:14]:verifying your token...
+
+2021-05-31 09:48:14.070 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:14]:userInfo file is not exist or available. Please activate your account.
+
+2021-05-31 09:48:14.070 [main-81] INFO  com.eastmoney.emquantapitest.QuantCase:start:81 - EQERR_NEED_ACTIVATE
+2021-05-31 09:48:14.071 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:14]:start fail: need use LoginActivator.exe tool
+
+2021-05-31 09:48:14.072 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:14]:account is not on-line.
+
+2021-05-31 09:48:14.072 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:14]:[cfn] fail: [10001001] user does not login
+
+2021-05-31 09:48:14.073 [main-92] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:92 - cfn输出结果======分隔线======
+2021-05-31 09:48:14.074 [main-94] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:94 - request cfn Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.075 [main-101] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:101 - cfnquery输出结果======分隔线======
+2021-05-31 09:48:14.075 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:14]:account is not on-line.
+
+2021-05-31 09:48:14.075 [main-103] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:103 - request cfnquery Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.075 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:14]:[cfnquery] fail: [10001001] user does not login
+
+2021-05-31 09:48:14.075 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:14]:account is not on-line.
+
+2021-05-31 09:48:14.075 [main-113] INFO  com.eastmoney.emquantapitest.QuantCase:testCnq:113 - request cnq Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.076 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:14]:[cnq] fail: [10001001] user does not login
+
+2021-05-31 09:48:14.077 [main-135] INFO  com.eastmoney.emquantapitest.QuantCase:testCmc:135 - cmc输出结果======分隔线======
+2021-05-31 09:48:14.077 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:14]:[cmc] fail: [10001001] user does not login
+
+2021-05-31 09:48:14.078 [main-137] INFO  com.eastmoney.emquantapitest.QuantCase:testCmc:137 - request Cmc Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.078 [main-152] INFO  com.eastmoney.emquantapitest.QuantCase:testCsd:152 - csd输出结果======分隔线======
+2021-05-31 09:48:14.078 [main-154] INFO  com.eastmoney.emquantapitest.QuantCase:testCsd:154 - request csd Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.078 [main-167] INFO  com.eastmoney.emquantapitest.QuantCase:testCss:167 - css输出结果======分隔线======
+2021-05-31 09:48:14.079 [main-169] INFO  com.eastmoney.emquantapitest.QuantCase:testCss:169 - request css Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.079 [main-182] INFO  com.eastmoney.emquantapitest.QuantCase:testCses:182 - request cses Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.079 [main-197] INFO  com.eastmoney.emquantapitest.QuantCase:testSector:197 - sector输出结果======分隔线======
+2021-05-31 09:48:14.079 [main-199] INFO  com.eastmoney.emquantapitest.QuantCase:testSector:199 - request Sector Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.080 [main-450] INFO  com.eastmoney.emquantapitest.QuantCase:testTradedates:450 - tradedate输出结果======分隔线======
+2021-05-31 09:48:14.080 [main-452] INFO  com.eastmoney.emquantapitest.QuantCase:testTradedates:452 - request tradedates Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.080 [main-214] INFO  com.eastmoney.emquantapitest.QuantCase:testGetDate:214 - request GetDate Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.080 [main-224] INFO  com.eastmoney.emquantapitest.QuantCase:testCsq:224 - csq输出结果======分隔线======
+2021-05-31 09:48:14.080 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:14]:[csq] fail: [10001001] user does not login
+
+2021-05-31 09:48:14.080 [main-226] INFO  com.eastmoney.emquantapitest.QuantCase:testCsq:226 - request csq Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.081 [main-243] INFO  com.eastmoney.emquantapitest.QuantCase:testCst:243 - cst输出结果======分隔线======
+2021-05-31 09:48:14.081 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:14]:[cst] fail: [10001001] user does not login
+
+2021-05-31 09:48:14.081 [main-245] INFO  com.eastmoney.emquantapitest.QuantCase:testCst:245 - request cst Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.081 [main-260] INFO  com.eastmoney.emquantapitest.QuantCase:testCsqsnapshot:260 - csqsnapshot输出结果======分隔线======
+2021-05-31 09:48:14.081 [main-262] INFO  com.eastmoney.emquantapitest.QuantCase:testCsqsnapshot:262 - request csqsnapshot Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.082 [main-277] INFO  com.eastmoney.emquantapitest.QuantCase:testCtr:277 - ctr输出结果======分隔线======
+2021-05-31 09:48:14.082 [main-279] INFO  com.eastmoney.emquantapitest.QuantCase:testCtr:279 - request ctr Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.082 [main-290] INFO  com.eastmoney.emquantapitest.QuantCase:testCfc:290 - request cfc Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.082 [main-300] INFO  com.eastmoney.emquantapitest.QuantCase:testCec:300 - request cec Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.083 [main-311] INFO  com.eastmoney.emquantapitest.QuantCase:testCps:311 - cps输出结果======分隔线======
+2021-05-31 09:48:14.083 [main-313] INFO  com.eastmoney.emquantapitest.QuantCase:testCps:313 - request cps Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.083 [main-323] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:323 - edb输出结果======分隔线======
+2021-05-31 09:48:14.083 [main-325] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:325 - request edb Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.083 [main-331] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:331 - edbquery输出结果======分隔线======
+2021-05-31 09:48:14.084 [main-333] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:333 - request edbquery Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.084 [main-346] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:346 - request pcreate Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.084 [main-356] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:356 - request pctransfer Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.084 [main-364] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:364 - request porder Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.085 [main-373] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:373 - request preport Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.085 [main-383] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:383 - request pquery Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.085 [main-391] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:391 - request pdelete Error, EQERR_NO_LOGIN
+2021-05-31 09:48:14.085 [main-468] INFO  com.eastmoney.emquantapitest.QuantCase:testTradedatesNum:468 - request TradedatesNum Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.584 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Debug][2021-05-31 09:48:33]:JNI_OnLoad startup ...
+
+2021-05-31 09:48:33.587 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Debug][2021-05-31 09:48:33]:Catch JNI_VERSION_1_8
+
+2021-05-31 09:48:33.587 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Debug][2021-05-31 09:48:33]:dir is /Users/hucc/eastmoney/21work/emquantapi/emquantapi-sample-springboot/lib/
+
+2021-05-31 09:48:33.626 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Info][2021-05-31 09:48:33]:The current version is EmQuantAPI(V2.5.2.0).
+
+2021-05-31 09:48:33.627 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Info][2021-05-31 09:48:33]:verifying your token...
+
+2021-05-31 09:48:33.627 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:33]:userInfo file is not exist or available. Please activate your account.
+
+2021-05-31 09:48:33.627 [main-81] INFO  com.eastmoney.emquantapitest.QuantCase:start:81 - EQERR_NEED_ACTIVATE
+2021-05-31 09:48:33.627 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:33]:start fail: need use LoginActivator.exe tool
+
+2021-05-31 09:48:33.628 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:33]:account is not on-line.
+
+2021-05-31 09:48:33.628 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:33]:[cfn] fail: [10001001] user does not login
+
+2021-05-31 09:48:33.629 [main-92] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:92 - cfn输出结果======分隔线======
+2021-05-31 09:48:33.629 [main-94] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:94 - request cfn Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.630 [main-101] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:101 - cfnquery输出结果======分隔线======
+2021-05-31 09:48:33.630 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:33]:account is not on-line.
+
+2021-05-31 09:48:33.630 [main-103] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:103 - request cfnquery Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.630 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:33]:[cfnquery] fail: [10001001] user does not login
+
+2021-05-31 09:48:33.631 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:33]:account is not on-line.
+
+2021-05-31 09:48:33.631 [main-113] INFO  com.eastmoney.emquantapitest.QuantCase:testCnq:113 - request cnq Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.631 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:33]:[cnq] fail: [10001001] user does not login
+
+2021-05-31 09:48:33.632 [main-135] INFO  com.eastmoney.emquantapitest.QuantCase:testCmc:135 - cmc输出结果======分隔线======
+2021-05-31 09:48:33.633 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:33]:[cmc] fail: [10001001] user does not login
+
+2021-05-31 09:48:33.633 [main-137] INFO  com.eastmoney.emquantapitest.QuantCase:testCmc:137 - request Cmc Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.633 [main-152] INFO  com.eastmoney.emquantapitest.QuantCase:testCsd:152 - csd输出结果======分隔线======
+2021-05-31 09:48:33.633 [main-154] INFO  com.eastmoney.emquantapitest.QuantCase:testCsd:154 - request csd Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.633 [main-167] INFO  com.eastmoney.emquantapitest.QuantCase:testCss:167 - css输出结果======分隔线======
+2021-05-31 09:48:33.634 [main-169] INFO  com.eastmoney.emquantapitest.QuantCase:testCss:169 - request css Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.634 [main-182] INFO  com.eastmoney.emquantapitest.QuantCase:testCses:182 - request cses Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.634 [main-197] INFO  com.eastmoney.emquantapitest.QuantCase:testSector:197 - sector输出结果======分隔线======
+2021-05-31 09:48:33.634 [main-199] INFO  com.eastmoney.emquantapitest.QuantCase:testSector:199 - request Sector Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.634 [main-450] INFO  com.eastmoney.emquantapitest.QuantCase:testTradedates:450 - tradedate输出结果======分隔线======
+2021-05-31 09:48:33.634 [main-452] INFO  com.eastmoney.emquantapitest.QuantCase:testTradedates:452 - request tradedates Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.635 [main-214] INFO  com.eastmoney.emquantapitest.QuantCase:testGetDate:214 - request GetDate Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.635 [main-224] INFO  com.eastmoney.emquantapitest.QuantCase:testCsq:224 - csq输出结果======分隔线======
+2021-05-31 09:48:33.635 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:33]:[csq] fail: [10001001] user does not login
+
+2021-05-31 09:48:33.635 [main-226] INFO  com.eastmoney.emquantapitest.QuantCase:testCsq:226 - request csq Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.635 [main-243] INFO  com.eastmoney.emquantapitest.QuantCase:testCst:243 - cst输出结果======分隔线======
+2021-05-31 09:48:33.635 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:48:33]:[cst] fail: [10001001] user does not login
+
+2021-05-31 09:48:33.635 [main-245] INFO  com.eastmoney.emquantapitest.QuantCase:testCst:245 - request cst Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.636 [main-260] INFO  com.eastmoney.emquantapitest.QuantCase:testCsqsnapshot:260 - csqsnapshot输出结果======分隔线======
+2021-05-31 09:48:33.636 [main-262] INFO  com.eastmoney.emquantapitest.QuantCase:testCsqsnapshot:262 - request csqsnapshot Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.636 [main-277] INFO  com.eastmoney.emquantapitest.QuantCase:testCtr:277 - ctr输出结果======分隔线======
+2021-05-31 09:48:33.637 [main-279] INFO  com.eastmoney.emquantapitest.QuantCase:testCtr:279 - request ctr Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.637 [main-290] INFO  com.eastmoney.emquantapitest.QuantCase:testCfc:290 - request cfc Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.637 [main-300] INFO  com.eastmoney.emquantapitest.QuantCase:testCec:300 - request cec Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.638 [main-311] INFO  com.eastmoney.emquantapitest.QuantCase:testCps:311 - cps输出结果======分隔线======
+2021-05-31 09:48:33.638 [main-313] INFO  com.eastmoney.emquantapitest.QuantCase:testCps:313 - request cps Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.638 [main-323] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:323 - edb输出结果======分隔线======
+2021-05-31 09:48:33.638 [main-325] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:325 - request edb Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.639 [main-331] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:331 - edbquery输出结果======分隔线======
+2021-05-31 09:48:33.639 [main-333] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:333 - request edbquery Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.639 [main-346] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:346 - request pcreate Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.639 [main-356] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:356 - request pctransfer Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.639 [main-364] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:364 - request porder Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.640 [main-373] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:373 - request preport Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.640 [main-383] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:383 - request pquery Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.640 [main-391] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:391 - request pdelete Error, EQERR_NO_LOGIN
+2021-05-31 09:48:33.640 [main-468] INFO  com.eastmoney.emquantapitest.QuantCase:testTradedatesNum:468 - request TradedatesNum Error, EQERR_NO_LOGIN
+2021-05-31 09:50:34.982 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Debug][2021-05-31 09:50:34]:JNI_OnLoad startup ...
+
+2021-05-31 09:50:34.986 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Debug][2021-05-31 09:50:34]:Catch JNI_VERSION_1_8
+
+2021-05-31 09:50:34.986 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Debug][2021-05-31 09:50:34]:dir is /Users/hucc/eastmoney/21work/emquantapi/emquantapi-sample-springboot/lib/
+
+2021-05-31 09:50:35.037 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Info][2021-05-31 09:50:35]:The current version is EmQuantAPI(V2.5.2.0).
+
+2021-05-31 09:50:35.038 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Info][2021-05-31 09:50:35]:verifying your token...
+
+2021-05-31 09:50:35.038 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:50:35]:userInfo file is not exist or available. Please activate your account.
+
+2021-05-31 09:50:35.038 [main-81] INFO  com.eastmoney.emquantapitest.QuantCase:start:81 - EQERR_NEED_ACTIVATE
+2021-05-31 09:50:35.038 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:50:35]:start fail: need use LoginActivator.exe tool
+
+2021-05-31 09:50:35.039 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:50:35]:account is not on-line.
+
+2021-05-31 09:50:35.039 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:50:35]:[cfn] fail: [10001001] user does not login
+
+2021-05-31 09:50:35.040 [main-92] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:92 - cfn输出结果======分隔线======
+2021-05-31 09:50:35.041 [main-94] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:94 - request cfn Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.041 [main-101] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:101 - cfnquery输出结果======分隔线======
+2021-05-31 09:50:35.041 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:50:35]:account is not on-line.
+
+2021-05-31 09:50:35.042 [main-103] INFO  com.eastmoney.emquantapitest.QuantCase:testCfn:103 - request cfnquery Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.042 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:50:35]:[cfnquery] fail: [10001001] user does not login
+
+2021-05-31 09:50:35.042 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:50:35]:account is not on-line.
+
+2021-05-31 09:50:35.042 [main-113] INFO  com.eastmoney.emquantapitest.QuantCase:testCnq:113 - request cnq Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.042 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:50:35]:[cnq] fail: [10001001] user does not login
+
+2021-05-31 09:50:35.044 [main-135] INFO  com.eastmoney.emquantapitest.QuantCase:testCmc:135 - cmc输出结果======分隔线======
+2021-05-31 09:50:35.044 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:50:35]:[cmc] fail: [10001001] user does not login
+
+2021-05-31 09:50:35.044 [main-137] INFO  com.eastmoney.emquantapitest.QuantCase:testCmc:137 - request Cmc Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.044 [main-152] INFO  com.eastmoney.emquantapitest.QuantCase:testCsd:152 - csd输出结果======分隔线======
+2021-05-31 09:50:35.045 [main-154] INFO  com.eastmoney.emquantapitest.QuantCase:testCsd:154 - request csd Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.045 [main-167] INFO  com.eastmoney.emquantapitest.QuantCase:testCss:167 - css输出结果======分隔线======
+2021-05-31 09:50:35.045 [main-169] INFO  com.eastmoney.emquantapitest.QuantCase:testCss:169 - request css Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.045 [main-182] INFO  com.eastmoney.emquantapitest.QuantCase:testCses:182 - request cses Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.045 [main-197] INFO  com.eastmoney.emquantapitest.QuantCase:testSector:197 - sector输出结果======分隔线======
+2021-05-31 09:50:35.046 [main-199] INFO  com.eastmoney.emquantapitest.QuantCase:testSector:199 - request Sector Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.046 [main-450] INFO  com.eastmoney.emquantapitest.QuantCase:testTradedates:450 - tradedate输出结果======分隔线======
+2021-05-31 09:50:35.046 [main-452] INFO  com.eastmoney.emquantapitest.QuantCase:testTradedates:452 - request tradedates Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.046 [main-214] INFO  com.eastmoney.emquantapitest.QuantCase:testGetDate:214 - request GetDate Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.046 [main-224] INFO  com.eastmoney.emquantapitest.QuantCase:testCsq:224 - csq输出结果======分隔线======
+2021-05-31 09:50:35.047 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:50:35]:[csq] fail: [10001001] user does not login
+
+2021-05-31 09:50:35.047 [main-226] INFO  com.eastmoney.emquantapitest.QuantCase:testCsq:226 - request csq Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.047 [main-243] INFO  com.eastmoney.emquantapitest.QuantCase:testCst:243 - cst输出结果======分隔线======
+2021-05-31 09:50:35.047 [Thread-1-55] INFO  com.eastmoney.emquantapitest.QuantCase:callback:55 - [Em_Error][2021-05-31 09:50:35]:[cst] fail: [10001001] user does not login
+
+2021-05-31 09:50:35.047 [main-245] INFO  com.eastmoney.emquantapitest.QuantCase:testCst:245 - request cst Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.047 [main-260] INFO  com.eastmoney.emquantapitest.QuantCase:testCsqsnapshot:260 - csqsnapshot输出结果======分隔线======
+2021-05-31 09:50:35.047 [main-262] INFO  com.eastmoney.emquantapitest.QuantCase:testCsqsnapshot:262 - request csqsnapshot Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.048 [main-277] INFO  com.eastmoney.emquantapitest.QuantCase:testCtr:277 - ctr输出结果======分隔线======
+2021-05-31 09:50:35.048 [main-279] INFO  com.eastmoney.emquantapitest.QuantCase:testCtr:279 - request ctr Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.049 [main-290] INFO  com.eastmoney.emquantapitest.QuantCase:testCfc:290 - request cfc Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.049 [main-300] INFO  com.eastmoney.emquantapitest.QuantCase:testCec:300 - request cec Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.049 [main-311] INFO  com.eastmoney.emquantapitest.QuantCase:testCps:311 - cps输出结果======分隔线======
+2021-05-31 09:50:35.049 [main-313] INFO  com.eastmoney.emquantapitest.QuantCase:testCps:313 - request cps Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.049 [main-323] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:323 - edb输出结果======分隔线======
+2021-05-31 09:50:35.050 [main-325] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:325 - request edb Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.050 [main-331] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:331 - edbquery输出结果======分隔线======
+2021-05-31 09:50:35.050 [main-333] INFO  com.eastmoney.emquantapitest.QuantCase:testEdb:333 - request edbquery Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.050 [main-346] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:346 - request pcreate Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.050 [main-356] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:356 - request pctransfer Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.051 [main-364] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:364 - request porder Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.051 [main-373] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:373 - request preport Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.051 [main-383] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:383 - request pquery Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.051 [main-391] INFO  com.eastmoney.emquantapitest.QuantCase:testPgroup:391 - request pdelete Error, EQERR_NO_LOGIN
+2021-05-31 09:50:35.052 [main-468] INFO  com.eastmoney.emquantapitest.QuantCase:testTradedatesNum:468 - request TradedatesNum Error, EQERR_NO_LOGIN
