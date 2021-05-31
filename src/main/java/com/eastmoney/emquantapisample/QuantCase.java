@@ -1,4 +1,4 @@
-package com.eastmoney.emquantapitest;
+package com.eastmoney.emquantapisample;
 
 import com.eastmoney.api.UserAPI;
 import com.eastmoney.callback.user.UserCallBack;
