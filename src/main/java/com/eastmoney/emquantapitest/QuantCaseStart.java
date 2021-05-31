@@ -36,9 +36,16 @@ public class QuantCaseStart implements ApplicationListener<ContextRefreshedEvent
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
         logger.info("QuantCaseStart...");
 
+        /*
+         userAPIPath，jniEnvPath，serverlistdir 为量化api库自定义路径，如果不需要自定义，置为null
+         如果在容器中运行，路径为容器中路径，且需要emquantapi_library copy一份到容器中
+         */
+
         QuantCase quantCase = new QuantCase();
         quantCase.init(userAPIPath,jniEnvPath);
 
+        //application.yml：emquantapi.manualactivate.run 控制是否进行手动激活
+        //首次或者激活时需要打开，正常运行时需置为：false
         if (manualactivateRun) {
             logger.info("Manualactivate...");
             quantCase.testManualactivate(manualactivateUserName, manualactivatePassword, manualactivateOptions);
