@@ -50,6 +50,7 @@ public class QuantCaseStart implements ApplicationListener<ContextRefreshedEvent
             logger.info("Manualactivate...");
             quantCase.testManualactivate(manualactivateUserName, manualactivatePassword, manualactivateOptions);
             logger.info("Manualactivate end!");
+            return;
         }
 
         //调用登录函数
