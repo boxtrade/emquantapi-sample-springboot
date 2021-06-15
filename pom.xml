@@ -17,6 +17,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <skipDocker>false</skipDocker>
     </properties>
 
     <dependencies>
@@ -71,6 +72,8 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <skip>${skipDocker}</skip>
+
                     <repository>127.0.0.1:5000/${project.artifactId}</repository>
                     <tag>${project.version}</tag>
                     <buildArgs>
