@@ -1,4 +1,4 @@
-package com.eastmoney;
+package com.eastmoney.emquantapisample.demo;
 
 /**
  * @author: ThinkingLee

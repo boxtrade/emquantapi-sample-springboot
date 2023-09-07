@@ -42,7 +42,7 @@ public class QuantCaseStart implements ApplicationListener<ContextRefreshedEvent
          */
 
         QuantCase quantCase = new QuantCase();
-        quantCase.init(userAPIPath,jniEnvPath);
+        quantCase.init(userAPIPath, jniEnvPath);
 
         //application.yml：emquantapi.manualactivate.run 控制是否进行手动激活
         //首次或者激活时需要打开，正常运行时需置为：false
@@ -51,10 +51,12 @@ public class QuantCaseStart implements ApplicationListener<ContextRefreshedEvent
             quantCase.testManualactivate(manualactivateUserName, manualactivatePassword, manualactivateOptions);
             logger.info("Manualactivate end!");
             return;
+        } else {
+            manualactivateOptions = "UserName=" + manualactivateUserName + ",Password=" + manualactivatePassword;
         }
 
         //调用登录函数
-        quantCase.start(serverlistdir);
+        quantCase.start(serverlistdir, manualactivateOptions);
 
         //资讯查询
         quantCase.testCfn();
@@ -62,14 +64,24 @@ public class QuantCaseStart implements ApplicationListener<ContextRefreshedEvent
         quantCase.testCnq();
         //cmc使用
         quantCase.testCmc();
+        //cmc todataframe使用
+        quantCase.testCmcToDataFrame();
         //csd使用
         quantCase.testCsd();
+        //csd todataframe使用
+        quantCase.testCsdToDataFrame();
         //css使用
         quantCase.testCss();
+        //css todataframe使用
+        quantCase.testCssToDataFrame();
         //cses
         quantCase.testCses();
+        //cses todataframe使用
+        quantCase.testCsesToDataFrame();
         //sector使用
         quantCase.testSector();
+        //sector todataframe使用
+        quantCase.testSectorToDataFrame();
         //tradedate使用
         quantCase.testTradedates();
         //getdate使用
@@ -80,8 +92,12 @@ public class QuantCaseStart implements ApplicationListener<ContextRefreshedEvent
         quantCase.testCst();
         //行情快照使用
         quantCase.testCsqsnapshot();
+        //行情快照 todataframe使用
+        quantCase.testCsqsnapshotToDataFrame();
         //获取专题报表使用
         quantCase.testCtr();
+        //获取专题报表 todataframe使用
+        quantCase.testCtrToDataFrame();
         //证券与指标校验函数
         quantCase.testCfc();
         //校验或补全东财证券代码函数
@@ -90,6 +106,8 @@ public class QuantCaseStart implements ApplicationListener<ContextRefreshedEvent
         quantCase.testCps();
         //宏观指标服务
         quantCase.testEdb();
+        //宏观指标服务 todataframe使用
+        quantCase.testEdbToDataFrame();
         //组合使用
         quantCase.testPgroup();
         //获取区间日期内的交易日天数
